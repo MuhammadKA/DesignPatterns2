@@ -1,0 +1,11 @@
+Design Principles:
+------------------
+
+- Identify the aspects of your application that vary and separate them from what stays the same.
+
+- Program to an interface, not an implementation.
+
+- Favor composition over inheritance (HAS-A can be better than IS-A)
+	Not only does it let you encapsulate a family of algorithms into their own set of classes, but it also
+	lets you change behavior at runtime as long as the object you're composing with implements the correct
+	behavior interface. 
